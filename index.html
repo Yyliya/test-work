@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="rus">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>calc</title>
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+    <section class="calc">
+        <div class="head">
+            <h3 class="title">Вентилятор</h3>
+            <div class="inner">
+                <div class="item">Мощность</div>
+                <div class="choice">
+                    <p><input id="power" type="number" class="fan_item-choice_power" name="power" value="2.2" min="2.2" max="4" step="0.2"> <span>кВт </span> </p>
+                </div>
+                <div class="item">Управление</div>
+                <div class="choice">
+                    <p><input id="derect" type="radio" class="fan_item-choice_control" name="control" value="100"> <span>Прямой пуск </span></p>
+                    <p><input id="mixer" type="radio" class="fan_item-choice_control" name="control" value="100"> <span> Преобразователь частоты </span></p>
+                </div>
+            </div>
+        </div>
+    
+        <div class="head">
+            <h3 class="title">Общие</h3>
+            <div class="inner">
+                    <div class="item">Корпус</div>
+                <div class="choice">
+                    <p><input id="plast" class="global_item-choice_material" type="radio" name="material" value="100"><span> Пластик </span></p>
+                    <p> <input id="met" class="global_item-choice_material" type="radio" name="material" value="100"><span>Металл </span> </p>
+                </div>
+        
+                <div class="item">Доп. опции</div>
+                <div class="choice">
+                    <p><input id="signal" class="global_item-choice_signal" type="checkbox" name="signal" value="100">  <span> Сигнал Пожар </span></p>
+                    <p><input id="led" class="global_item-choice_led" type="checkbox" name="led" value="100"> <span>LED-индикация </span></p> 
+                    <p><input id="disp" class="global_item-choice_disp" type="checkbox" name="disp" value="100"> <span> Диспетчеризация </span></p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="sum">
+        <h1 class="sum_title">Итого:</h1>
+        <span id="sum_res" class="sum_res">0 рублей</span> 
+    </div>
+
+    <script src="js/script.js"></script>
+</body>
+</html>

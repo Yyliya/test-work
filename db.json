@@ -1,0 +1,31 @@
+{
+  "menu": [
+    {
+      "name": "control",
+      "value": "100"
+    },
+    {
+      "name": "material",
+      "value": "100"
+    },
+    {
+      "name": "signal",
+      "value": "100"
+    },
+    {
+      "name": "led",
+      "value": "100"
+    },
+    {
+      "name": "disp",
+      "value": "100"
+    },
+    {
+      "name": "power",
+      "value": "100"
+    }
+  ],
+  "requests": [
+      
+  ]
+}
